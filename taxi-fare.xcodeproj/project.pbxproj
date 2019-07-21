@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA217F141D05DD9400EFEB67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA217F131D05DD9400EFEB67 /* AppDelegate.swift */; };
+		CA217F191D05DD9400EFEB67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA217F171D05DD9400EFEB67 /* Main.storyboard */; };
+		CA217F1B1D05DD9400EFEB67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA217F1A1D05DD9400EFEB67 /* Assets.xcassets */; };
+		CA217F1E1D05DD9400EFEB67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA217F1C1D05DD9400EFEB67 /* LaunchScreen.storyboard */; };
+		CA217F281D05DE6700EFEB67 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA217F261D05DE6700EFEB67 /* Roboto-Light.ttf */; };
+		CA217F291D05DE6700EFEB67 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA217F271D05DE6700EFEB67 /* Roboto-Medium.ttf */; };
+		CA217F2D1D05F0B900EFEB67 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA217F2C1D05F0B900EFEB67 /* MapKit.framework */; };
+		CAB0D0291D07BB6A00635218 /* FareCalcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB0D0271D07BB6A00635218 /* FareCalcViewController.swift */; };
+		CAB0D02A1D07BB6A00635218 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB0D0281D07BB6A00635218 /* MapViewController.swift */; };
+		CAB0D02C1D07BB7B00635218 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB0D02B1D07BB7B00635218 /* BaseViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA217F101D05DD9400EFEB67 /* taxi-fare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "taxi-fare.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA217F131D05DD9400EFEB67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA217F181D05DD9400EFEB67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA217F1A1D05DD9400EFEB67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA217F1D1D05DD9400EFEB67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA217F1F1D05DD9400EFEB67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA217F261D05DE6700EFEB67 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		CA217F271D05DE6700EFEB67 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		CA217F2C1D05F0B900EFEB67 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		CAB0D0271D07BB6A00635218 /* FareCalcViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FareCalcViewController.swift; sourceTree = "<group>"; };
+		CAB0D0281D07BB6A00635218 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		CAB0D02B1D07BB7B00635218 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA217F0D1D05DD9400EFEB67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA217F2D1D05F0B900EFEB67 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA217F071D05DD9400EFEB67 = {
+			isa = PBXGroup;
+			children = (
+				CA217F121D05DD9400EFEB67 /* taxi-fare */,
+				CA217F2E1D05F0BD00EFEB67 /* Frameworks */,
+				CA217F111D05DD9400EFEB67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA217F111D05DD9400EFEB67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA217F101D05DD9400EFEB67 /* taxi-fare.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA217F121D05DD9400EFEB67 /* taxi-fare */ = {
+			isa = PBXGroup;
+			children = (
+				CA217F131D05DD9400EFEB67 /* AppDelegate.swift */,
+				CA217F1A1D05DD9400EFEB67 /* Assets.xcassets */,
+				CA217F251D05DE6700EFEB67 /* Custom Assets */,
+				CA217F1F1D05DD9400EFEB67 /* Info.plist */,
+				CA217F1C1D05DD9400EFEB67 /* LaunchScreen.storyboard */,
+				CA217F171D05DD9400EFEB67 /* Main.storyboard */,
+				CAB0D0261D07BB6A00635218 /* Views */,
+			);
+			path = "taxi-fare";
+			sourceTree = "<group>";
+		};
+		CA217F251D05DE6700EFEB67 /* Custom Assets */ = {
+			isa = PBXGroup;
+			children = (
+				CA217F261D05DE6700EFEB67 /* Roboto-Light.ttf */,
+				CA217F271D05DE6700EFEB67 /* Roboto-Medium.ttf */,
+			);
+			name = "Custom Assets";
+			path = "custom-assets";
+			sourceTree = "<group>";
+		};
+		CA217F2E1D05F0BD00EFEB67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA217F2C1D05F0B900EFEB67 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			path = "taxi-fare";
+			sourceTree = "<group>";
+		};
+		CAB0D0261D07BB6A00635218 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CAB0D02B1D07BB7B00635218 /* BaseViewController.swift */,
+				CAB0D0271D07BB6A00635218 /* FareCalcViewController.swift */,
+				CAB0D0281D07BB6A00635218 /* MapViewController.swift */,
+			);
+			name = Views;
+			path = views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA217F0F1D05DD9400EFEB67 /* taxi-fare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA217F221D05DD9400EFEB67 /* Build configuration list for PBXNativeTarget "taxi-fare" */;
+			buildPhases = (
+				CA217F0C1D05DD9400EFEB67 /* Sources */,
+				CA217F0D1D05DD9400EFEB67 /* Frameworks */,
+				CA217F0E1D05DD9400EFEB67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "taxi-fare";
+			productName = "taxi-fare";
+			productReference = CA217F101D05DD9400EFEB67 /* taxi-fare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA217F081D05DD9400EFEB67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Thanh Nguyen";
+				TargetAttributes = {
+					CA217F0F1D05DD9400EFEB67 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 78KJ4VW88C;
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = CA217F0B1D05DD9400EFEB67 /* Build configuration list for PBXProject "taxi-fare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA217F071D05DD9400EFEB67;
+			productRefGroup = CA217F111D05DD9400EFEB67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA217F0F1D05DD9400EFEB67 /* taxi-fare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA217F0E1D05DD9400EFEB67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA217F291D05DE6700EFEB67 /* Roboto-Medium.ttf in Resources */,
+				CA217F1E1D05DD9400EFEB67 /* LaunchScreen.storyboard in Resources */,
+				CA217F1B1D05DD9400EFEB67 /* Assets.xcassets in Resources */,
+				CA217F281D05DE6700EFEB67 /* Roboto-Light.ttf in Resources */,
+				CA217F191D05DD9400EFEB67 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA217F0C1D05DD9400EFEB67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA217F141D05DD9400EFEB67 /* AppDelegate.swift in Sources */,
+				CAB0D02C1D07BB7B00635218 /* BaseViewController.swift in Sources */,
+				CAB0D02A1D07BB6A00635218 /* MapViewController.swift in Sources */,
+				CAB0D0291D07BB6A00635218 /* FareCalcViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA217F171D05DD9400EFEB67 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA217F181D05DD9400EFEB67 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA217F1C1D05DD9400EFEB67 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA217F1D1D05DD9400EFEB67 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA217F201D05DD9400EFEB67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA217F211D05DD9400EFEB67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA217F231D05DD9400EFEB67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 78KJ4VW88C;
+				INFOPLIST_FILE = "taxi-fare/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "matkinhig.taxi-fare";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CA217F241D05DD9400EFEB67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 78KJ4VW88C;
+				INFOPLIST_FILE = "taxi-fare/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "matkinhig.taxi-fare";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA217F0B1D05DD9400EFEB67 /* Build configuration list for PBXProject "taxi-fare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA217F201D05DD9400EFEB67 /* Debug */,
+				CA217F211D05DD9400EFEB67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA217F221D05DD9400EFEB67 /* Build configuration list for PBXNativeTarget "taxi-fare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA217F231D05DD9400EFEB67 /* Debug */,
+				CA217F241D05DD9400EFEB67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA217F081D05DD9400EFEB67 /* Project object */;
+}
